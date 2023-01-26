@@ -3,6 +3,7 @@ A simple AI assistant for your CLI.
 
 We have:
 * [GLaDOS](https://en.wikipedia.org/wiki/GLaDOS)
+* Caroline (some AI assistant name I came up with)
 
 ## Installation
 
