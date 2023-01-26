@@ -63,7 +63,7 @@ async function openAiRequest(prompt: string, apiKey: string, model: Model) {
 			},
 			body: JSON.stringify({
 				prompt: prompt,
-				max_tokens: 100,
+				max_tokens: 250,
 				model: model,
 			}),
 		});
