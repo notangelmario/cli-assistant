@@ -41,8 +41,7 @@ export async function main(client: ClientConfig) {
 	const reqPrompt = `${client.instructions} Human:${request}, ${client.publicName}:`;
 	const response = await openAiRequest(reqPrompt, config.apiKey, client.model);
 
-	const cleanResponse = response.replace(/(\r?\n|\r)/g, "");
-	console.log(`${client.publicName}: ${cleanResponse}`);
+	console.log(`${client.publicName}: ${response}`);
 }
 
 async function getUserInput(): Promise<string | undefined> {
